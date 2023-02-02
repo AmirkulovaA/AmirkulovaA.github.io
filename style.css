@@ -1,0 +1,148 @@
+h2{ color: palevioletred; 
+font-style: oblique;
+font-size: 40px;
+text-align: center;}
+
+.banner {
+        background-image: url('banner.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        ;
+}
+
+.topic {
+	color: firebrick;
+	background-color: paleturquoise;
+	font-size: 60px;
+	font-style: oblique;}
+
+#task {
+	font-size: 20px;
+	color: maroon;
+}
+
+#requirements {
+	font-size: 20px;
+	color: maroon;
+}
+
+#submission {
+	font-size: 20px;
+	color: maroon;
+}
+
+#grading {
+	font-size: 20px;
+	color: maroon;
+}
+
+
+header {
+  background-color: lightpink;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.banner {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: darkred;
+}
+
+.menu a {
+  color: crimson;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.menu .active {
+  color: lightblue;
+}
+
+.menu a:hover {
+  color: green;
+}
+
+.menu a:visited {
+  color: gray;
+}
+
+h3 {text-align: center;
+font-style: italic;
+font-style: oblique;
+font-size: 25px;
+color: darkred;}
+
+.aside_content {
+	font-size: 20px;
+	color: teal;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+h4 {
+
+font-size: 20px;
+color: royalblue;}
+
+
+
+.categories .active {
+  color: lightblue;
+}
+
+.categories a:hover {
+  color: green;
+}
+
+.categories a:visited {
+  color: gray;}
+
+
+.quick_links .active {
+  color: lightblue;
+}
+
+.quick_links a:hover {
+  color: green;
+}
+
+.quick_links a:visited {
+  color: gray;}
+
+h5 {
+
+font-size: 15px;
+color: royalblue;}
+
+
+img {
+  border: 5px solid black;
+}
+
+butto {
+	background: none;
+	border: 0;
+	position: relative;
+}
+
+button :after {
+	content: '';
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #FFAB90;
+
+	position: absolute;
+	top: -50%;
+	left: -10px;
+
+	opacity: 0.3;
+	z-index: -1;
+}
+
